@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://127.0.0.2:4000/papersummary/2020/12/31/institutional-investors-and-stock-return-anomalies/</loc>
+<lastmod>2020-12-31T08:30:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://127.0.0.2:4000/about/</loc>
+</url>
+<url>
+<loc>http://127.0.0.2:4000/category/</loc>
+</url>
+<url>
+<loc>http://127.0.0.2:4000/</loc>
+</url>
+<url>
+<loc>http://127.0.0.2:4000/tag/assetpricing/</loc>
+</url>
+<url>
+<loc>http://127.0.0.2:4000/tag/limitstoarbitrage/</loc>
+</url>
+<url>
+<loc>http://127.0.0.2:4000/tag/behavioralfinance/</loc>
+</url>
+<url>
+<loc>http://127.0.0.2:4000/tag/mispricing/</loc>
+</url>
+<url>
+<loc>http://127.0.0.2:4000/tag/jfe/</loc>
+</url>
+</urlset>
