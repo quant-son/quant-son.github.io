@@ -14,13 +14,13 @@
 <loc>http://127.0.0.2:4000/</loc>
 </url>
 <url>
-<loc>http://127.0.0.2:4000/tag/assetpricing/</loc>
+<loc>http://127.0.0.2:4000/tag/asset-pricing/</loc>
 </url>
 <url>
-<loc>http://127.0.0.2:4000/tag/limitstoarbitrage/</loc>
+<loc>http://127.0.0.2:4000/tag/limits-to-arbitrage/</loc>
 </url>
 <url>
-<loc>http://127.0.0.2:4000/tag/behavioralfinance/</loc>
+<loc>http://127.0.0.2:4000/tag/behavioral-finance/</loc>
 </url>
 <url>
 <loc>http://127.0.0.2:4000/tag/mispricing/</loc>
