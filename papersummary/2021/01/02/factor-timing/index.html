@@ -6,10 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title></title>
+  <title>Factor Timing</title>
   <meta name='description' content='Blog for paper summaries, codes, posts of asset pricing'>
 
-  <link rel="canonical" href="https://quant-son.github.io/tag/jfe/">
+  <link rel="canonical" href="https://quant-son.github.io/papersummary/2021/01/02/factor-timing/">
   <link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
 
   <!-- Fonts -->
@@ -17,6 +17,30 @@
   <!-- Ionicons -->
   <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
 
+  
+  <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    tex2jax: {
+    inlineMath: [ ['$', '$'] ],
+    displayMath: [ ['$$', '$$'] ],
+    processEscapes: true,
+  }
+});
+MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+	  alert("Math Processing Error: "+message[1]);
+	});
+MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+	  alert("Math Processing Error: "+message[1]);
+	});
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
   
 
   <style>
@@ -976,60 +1000,147 @@ a.active { text-decoration: none; color: #000; font-weight: bold; cursor: text; 
 
   <!-- begin content -->
   <main class="content" aria-label="Content">
-    <div class="arhive-head">
-  <div class="container">
-    <h1 class="archive-title">Tag: <span>jfe</span></h1>
+    <div class="container">
+  <div class="post-title-box">
+    <div class="row">
+      <div class="col col-10 push-2 col-11 push-t-1 col-m-12 push-m-0">
+        <span class="post__date">
+          <time datetime="2021-01-02T07:30:00+09:00">Jan 02, 2021</time>
+        </span>
+
+        <h1 class="post-title">Factor Timing</h1>
+
+        <div class="post__info">
+          <div class="post__author">
+            <span>By</span>
+            <a href="/about/" class="author-name">Changho Son</a>
+          </div>
+
+          
+          <div class="post__tags">
+            
+              <a href="/tag/asset-pricing" class="post__tags-tag">asset-pricing</a>
+            
+              <a href="/tag/factor-timing" class="post__tags-tag">factor-timing</a>
+            
+              <a href="/tag/factor-investing" class="post__tags-tag">factor-investing</a>
+            
+              <a href="/tag/sdf" class="post__tags-tag">sdf</a>
+            
+              <a href="/tag/pca" class="post__tags-tag">pca</a>
+            
+          </div>
+          
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-
-
 
   
-<!-- begin article -->
-<div class="article">
+  
+    
+  
+
+  </div>
+
+
   <div class="container">
+  <div class="row">
+    <!-- begin post -->
+    <article class="post post-no-image col col-8 col-t-10 col-m-12">
 
-    <div class="article__wrapper">
+      <div class="post__content">
+        <p><a href="https://www.nber.org/papers/w26708" target="_blank">Haddad, Kozak and Santosh(2020), Working paper</a></p>
 
-        
-          
-        
+<h3 id="argument">Argument</h3>
+<ul>
+  <li>The optimal portfolio is equivalent to the stochastic discount factor(SDF). Thus if factor timing is relevant for the optimal portfolio, we should consider this fact when estimating the SDF.</li>
+</ul>
 
-        <div class="article__content article-without-image">
-          <div class="article-tags">
-          
-            <div class="article-tags__box">
-              
-                <a href="/category" class="article__tag">PaperSummary</a>
-              
-            </div>
-          
-          </div>
-      
-          <h2 class="article__title">
-            <a href="/papersummary/2020/12/31/institutional-investors-and-stock-return-anomalies-%EB%B3%B5%EC%82%AC%EB%B3%B8/">Institutional investors and stock return anomalies</a>
-          </h2>
-      
-          <p class="article__excerpt">Edelen, Ince and Kadlec(2016), Journal of Financial Economics
+<h3 id="assumptions">Assumptions</h3>
 
-기관투자자의 행보가 시장이상현상(Market anomalies)에 미치는 영향에 대해 서술한 논문이다. 저자들은 기관투자자들이 개별 시장이상현상들을 기준으로 과대평가된 주식들(Short leg)을 매수하는 경향이 ...</p>
-          
-          <div class="article__footer">
-            <div class="article__meta">
-              <span class="article__date"><time datetime="2020-12-31T08:30:00+09:00">December 31, 2020</time></span>
-            </div>
+<ol>
+  <li>The SDF which prices stocks implies that a conditional factor model holds with respect to these portfolios.</li>
+  <li>The pricing kernel does not generate excessively high sharpe ratios. If there are near-arbitrage opportunities, they are exploited by arbitrageurs in equilibrium.</li>
+</ol>
 
-            <a href="/papersummary/2020/12/31/institutional-investors-and-stock-return-anomalies-%EB%B3%B5%EC%82%AC%EB%B3%B8/" class="read-more">Keep Reading <i class="ion ion-ios-arrow-forward"></i></a>
-          </div>
-
-        </div>
+\[\lim_{x\to 0}{\frac{e^x-1}{2x}}
+\overset{\left[\frac{0}{0}\right]}{\underset{\mathrm{H}}{=}}
+\lim_{x\to 0}{\frac{e^x}{2}}={\frac{1}{2}}\]
 
       </div>
-      
-  </div>
-</div>
-<!-- end article -->
 
+      <div class="post__share">
+        <span class="share__title">Share this article:</span>
+        <ul class="share__list list-reset">
+          <li class="share__item">
+            <a class="share__facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://quant-son.github.io/papersummary/2021/01/02/factor-timing/"
+              onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+              title="Share on Facebook" rel="nofollow"><i class="ion ion-logo-facebook"></i></a>
+          </li>
+
+          <li class="share__item">
+            <a class="share__twitter" href="https://twitter.com/intent/tweet?text=Factor%20Timing&url=https://quant-son.github.io/papersummary/2021/01/02/factor-timing/"
+              onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+              title="Share on Twitter" rel="nofollow"><i class="ion ion-logo-twitter"></i></a>
+          </li>
+
+          <li class="share__item">
+            <a class="share__linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://quant-son.github.io/papersummary/2021/01/02/factor-timing/&title=Factor%20Timing&summary=&source="
+              onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" rel="nofollow"><i class="ion ion-logo-linkedin"></i></a>
+          </li>
+
+          <li class="share__item">
+            <a class="share__pinterest" href="http://pinterest.com/pin/create/button/?url=https://quant-son.github.io/papersummary/2021/01/02/factor-timing/&amp;media=https://quant-son.github.io/images/&amp;description=Factor%20Timing"
+              onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;" title="Share on Pinterest"
+              rel="nofollow"><i class="ion ion-logo-pinterest"></i></a>
+          </li>
+        </ul>
+      </div>
+    </article>
+    <!-- end post -->
+    </div>
+  </div>
+
+  <div class="container">
+  <div class="post__navigation">
+    
+    <div class="prev">
+      <a class="post__nav__image" href="/papersummary/2020/12/31/institutional-investors-and-stock-return-anomalies-%EB%B3%B5%EC%82%AC%EB%B3%B8/" style="background-image: url(/images/)"></a>
+      <h2 class="post__nav__title">
+        <i class="ion ion-md-arrow-back"></i>
+        <a href="/papersummary/2020/12/31/institutional-investors-and-stock-return-anomalies-%EB%B3%B5%EC%82%AC%EB%B3%B8/">Institutional investors and stock return anomalies</a>
+      </h2>
+      <p class="prev__excerpt">
+        
+          Edelen, Ince and Kadlec(2016), Journal of Financial Economics
+
+기관투자자의 행보가 시장이상현상(Market anomalies)에 미치는 영향에...
+        
+      </p>
+    </div>
+    
+
+    
+  </div>
+
+   <!-- begin comments -->
+<div class="comments">
+  <div id="disqus_thread"></div>
+  <script>
+    (function () {
+      var d = document, s = d.createElement('script');
+      s.src = '//sons-quantonicle.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
+</div>
+<!-- end comments --> 
+  </div>
 
   </main>
   <!-- end content -->

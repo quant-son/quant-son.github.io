@@ -1,10 +1,18 @@
 [
   
     {
+      "title"    : "Factor Timing",
+      "category" : "",
+      "tags"     : "asset-pricing, factor-timing, factor-investing, sdf, and pca",
+      "url"      : "/papersummary/2021/01/02/factor-timing/",
+      "date"     : "2 Jan, 2021"
+    } ,
+  
+    {
       "title"    : "Institutional investors and stock return anomalies",
       "category" : "",
       "tags"     : "asset-pricing, limits-to-arbitrage, behavioral-finance, mispricing, and jfe",
-      "url"      : "/papersummary/2020/12/31/institutional-investors-and-stock-return-anomalies/",
+      "url"      : "/papersummary/2020/12/31/institutional-investors-and-stock-return-anomalies-%EB%B3%B5%EC%82%AC%EB%B3%B8/",
       "date"     : "31 Dec, 2020"
     } 
   

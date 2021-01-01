@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://quant-son.github.io/papersummary/2020/12/31/institutional-investors-and-stock-return-anomalies/</loc>
+<loc>https://quant-son.github.io/papersummary/2020/12/31/institutional-investors-and-stock-return-anomalies-%EB%B3%B5%EC%82%AC%EB%B3%B8/</loc>
 <lastmod>2020-12-31T08:30:00+09:00</lastmod>
+</url>
+<url>
+<loc>https://quant-son.github.io/papersummary/2021/01/02/factor-timing/</loc>
+<lastmod>2021-01-02T07:30:00+09:00</lastmod>
 </url>
 <url>
 <loc>https://quant-son.github.io/about/</loc>
@@ -27,5 +31,17 @@
 </url>
 <url>
 <loc>https://quant-son.github.io/tag/jfe/</loc>
+</url>
+<url>
+<loc>https://quant-son.github.io/tag/factor-timing/</loc>
+</url>
+<url>
+<loc>https://quant-son.github.io/tag/factor-investing/</loc>
+</url>
+<url>
+<loc>https://quant-son.github.io/tag/sdf/</loc>
+</url>
+<url>
+<loc>https://quant-son.github.io/tag/pca/</loc>
 </url>
 </urlset>
